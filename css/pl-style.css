@@ -1,0 +1,259 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+	background-color: white;
+}
+
+.pl-main-cntnt {
+	padding: 10px;
+	margin: 10px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	background: transparent;
+}
+
+.pl-mn-auth {
+}
+
+.pl-main-intro {
+	background-image: url("/img/pl-bg/intro-bg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.pl-txt-emph {
+	font-size: 28px;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+}
+
+.pl-txt {
+	font-size: 20px;
+	font-weight: normal;
+	font-family: 'Roboto', sans-serif;
+}
+
+.pl-txt-body {
+	font-size: 16px;
+	font-weight: normal;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.pl-nv-clr , .pl-dp-mn {
+	backdrop-filter: blur(8px);
+	background: rgba(200,250,255,0.8);
+}
+
+
+.pl-tgl-clr {
+	background: transparent;
+}
+
+.pl-tgl-br {
+	background: rgba(50,80,200,0.6);
+}
+
+
+.pl-a-btn {
+	font-weight: bold;
+	color: rgb(47,80,100);
+}
+ul.nav a:focus, ul.nav a:hover  { 
+	border-radius: 5px;
+	color: rgb(27,60,80);
+	background-color: rgba(180,210,230,0.8);
+}
+
+
+.pl-ttl-fnt {
+	font-weight: bold;
+	color: rgb(27,80,100);
+}
+
+.pl-txtfld-srch {
+	background: rgba(255,255,255,0);
+	border-radius: 0px;
+	box-shadow: none;
+	border-bottom-width: 1px;
+	border-top-style: none; border-left-style: none; border-right-style: none;
+	border-bottom-color: rgba(100,120,180,1);
+}
+.pl-txtfld-srch:focus , .pl-txtfld-srch:hover {
+	background: rgba(255,255,255,0.3);
+	border-radius: 0px;
+	box-shadow: none;
+	border-bottom-width: 1px;
+	border-top-style: none; border-left-style: none; border-right-style: none;
+	border-bottom-color: rgba(100,120,180,1);
+}
+
+
+.pl-btn-srch {
+	background: rgba(255,255,255,0);
+	color: rgba(70,90,150,1);
+	border-style: none;
+}
+.pl-btn-srch:hover {
+	background: rgba(255,255,255,0.3);
+	color: rgba(100,120,180,1);
+	border-style: none;
+}
+.pl-btn-srch:click {
+	background: rgba(255,255,255,0.3);
+	color: rgba(70,90,150,1);
+	border-style: solid;
+	border-color: gray;
+	outline: none
+}
+.pl-btn-srch:focus {
+	background: rgba(255,255,255,0.3);
+	color: rgba(70,90,150,1);
+	border-style: solid;
+	border-color: gray;
+	outline: none
+}
+
+
+.pl-shdw {
+    -webkit-filter: drop-shadow(3px 3px 2px rgba(0,0,0,0.2));
+  	filter: drop-shadow(3px 3px 2px rgba(0,0,0,0.2));
+}
+
+.pl-shdw2 {
+    -webkit-filter: drop-shadow(3px 3px 2px rgba(0,0,0,0.8));
+  	filter: drop-shadow(3px 3px 2px rgba(0,0,0,0.8));
+}
+
+.pl-shdw3 {
+    -webkit-filter: drop-shadow(3px 3px 0px rgba(0,0,0,0.2));
+  	filter: drop-shadow(3px 3px 0px rgba(0,0,0,0.2));
+}
+
+
+
+.pl-shdw-wht {
+    -webkit-filter: drop-shadow(2px 1px 2px rgba(255,255,255,0.6));
+  	filter: drop-shadow(2px 1px 2px rgba(255,255,255,0.6));
+}
+
+.pl-btm-shdw {
+	-webkit-filter: drop-shadow(0px 1px 5px rgba(0,0,0,0.5));
+  	filter: drop-shadow(0px 1px 5px rgba(0,0,0,0.5));
+}
+
+.pl-txt-bg-w {
+	backdrop-filter: blur(8px);
+	width: 320px;
+	border-radius: 8px;
+	background: rgba(245,250,255,0.5);
+}
+
+.pl-txt-bg {
+	backdrop-filter: blur(8px);
+	border-radius: 8px;
+	background: rgba(255,255,255,0.7);
+}
+
+
+.pl-mn-s-org {
+	position: relative;
+	background-image: url("/img/pl-bg/strip-bg.png");
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 110% 100%;
+
+}
+
+.pl-mn-r-sched {
+	position: relative;
+	background-image: url("/img/pl-bg/strip-bg.png");
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 110% 100%;
+
+}
+
+
+.pl-v-center {
+	display: flex;
+   	align-items: center;
+}
+
+.pl-title {
+	font-size: 28px;
+	color: rgba(20,70,115,1);
+}
+
+.pl-scl-icn {
+	font-size: 25px;
+}
+
+.pl-scl-icn:hover , .pl-scl-icn:click {
+	font-size: 32px;
+}
+
+
+
+
+
+
+
+
+/* Bootstrap Overides */
+.dropdown-toggle:click {
+	color: rgb(27,60,80);
+	background-color: rgba(180,210,230,0.8);
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+}
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid rgba(57,90,120,0.4);
+  border-radius: 10px;
+}
+.carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  background-color: rgba(57,90,120,0.4);
+}
+
+
+/*
+div {
+	background-color: blue;
+}
+.row {
+	background-color: black;	
+}
+
+.col-md-6 {
+	background-color: yellow;
+}
+
+.pl-main-cntnt {
+	background-color: orange;
+}
+*/
