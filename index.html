@@ -24,9 +24,10 @@
 	<script src="/js/jquery-1.11.3.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
 
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
+   	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Pacifico&family=Roboto:ital,wght@0,500;0,700;1,300&display=swap" rel="stylesheet">
     
     
     <link href="css/hz-style.css" rel="stylesheet">
@@ -35,73 +36,88 @@
 
 <body>
 
+	<div class="container-fluid hz-top-contnt ">
 
-	
+		<nav class="navbar navbar-fixed-top hz-nvbr" role="navigation">
 
-	<nav class="navbar navbar-fixed-top hz-nvbr" role="navigation">
+	        <div class="container-fluid">
+	            <!-- Logo and responsive toggle -->
+	            <div class="navbar-header">
+	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                </button>
+	                <a class="navbar-brand" href="/" title="Hanz Aquino">                	
+	                	<span class="hz-nvbr-title">Hanz Aquino</span>
+	                </a>
+	            </div>
 
-        <div class="container-fluid">
-            <!-- Logo and responsive toggle -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="/" title="Hanz Aquino">                	
-                	<span class="hz-nvbr-title">Hanz Aquino</span>
-                </a>
-            </div>
-
-            <!-- Navbar links -->
-            <div class="collapse navbar-collapse" id="navbar">
-                <ul class="nav navbar-nav navbar-left">
-                	<li class="dropdown ">
-						<a href="" class="dropdown-toggle hz-nvbr-abtn" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio <span class="caret"></span></a>
-						<ul class="dropdown-menu hz-drpdwn" aria-labelledby="about-us">
-							<div class="row">
-								<div class="col-xs-6" align="center">
-									<li><p align="center" style="color: rgb(220,240,255);"><strong>Programming</strong></p></li>
-									<li><a align="center" class="hz-drpdwn-btn" href="#">Web</a></li>
-									<li><a align="center" class="hz-drpdwn-btn" href="#">Desktop</a></li>
-									<li><a align="center" class="hz-drpdwn-btn" href="#">Mathematics and Algorithms</a></li>
-									<br>
-									<li><p align="center" style="color: rgb(220,240,255);"><strong>Computer Graphics</strong></p></li>
-									<li><a align="center" class="hz-drpdwn-btn" href="#">2D Arts</a></li>
-									<li><a align="center" class="hz-drpdwn-btn" href="#">3D Arts</a></li>
+	            <!-- Navbar links -->
+	            <div class="collapse navbar-collapse" id="navbar">
+	                <ul class="nav navbar-nav navbar-left">
+	                	<li class="dropdown ">
+							<a href="" class="dropdown-toggle hz-nvbr-abtn" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio <span class="caret"></span></a>
+							<ul class="dropdown-menu hz-drpdwn" aria-labelledby="about-us">
+								<div class="row">
+									<div class="col-xs-6" align="center">
+										<li><p align="center" style="color: rgb(220,240,255);"><strong>Programming</strong></p></li>
+										<li><a align="center" class="hz-drpdwn-btn" href="#">Web</a></li>
+										<li><a align="center" class="hz-drpdwn-btn" href="#">Desktop</a></li>
+										<li><a align="center" class="hz-drpdwn-btn" href="#">Mathematics and Algorithms</a></li>
+										<br>
+										<li><p align="center" style="color: rgb(220,240,255);"><strong>Computer Graphics</strong></p></li>
+										<li><a align="center" class="hz-drpdwn-btn" href="#">2D Arts</a></li>
+										<li><a align="center" class="hz-drpdwn-btn" href="#">3D Arts</a></li>
+									</div>
+									<div class="col-xs-6" align="center"	>
+										<li><p align="center" style="color: rgb(220,240,255);"><strong>Mathematics</strong></p></li>
+										<li><a align="center" class="hz-drpdwn-btn" href="#">Physics</a></li>
+										<li><a align="center" class="hz-drpdwn-btn" href="#">Geometry</a></li>
+										<li><a align="center" class="hz-drpdwn-btn" href="#">Math</a></li>
+										<br>
+										<li><p align="center" style="color: rgb(220,240,255);"><strong>Engineering</strong></p></li>
+										<li><a align="center" class="hz-drpdwn-btn" href="#">Circuit Designs</a></li>
+										<li><a align="center" class="hz-drpdwn-btn" href="#">Research</a></li>
+									</div>
 								</div>
-								<div class="col-xs-6" align="center"	>
-									<li><p align="center" style="color: rgb(220,240,255);"><strong>Mathematics</strong></p></li>
-									<li><a align="center" class="hz-drpdwn-btn" href="#">Physics</a></li>
-									<li><a align="center" class="hz-drpdwn-btn" href="#">Geometry</a></li>
-									<li><a align="center" class="hz-drpdwn-btn" href="#">Math</a></li>
-									<br>
-									<li><p align="center" style="color: rgb(220,240,255);"><strong>Engineering</strong></p></li>
-									<li><a align="center" class="hz-drpdwn-btn" href="#">Circuit Designs</a></li>
-									<li><a align="center" class="hz-drpdwn-btn" href="#">Research</a></li>
-								</div>
-							</div>
-						</ul>
-					</li>
-                    <li>
-                        <a class="hz-nvbr-abtn" href="#">About</a>
-                    </li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                	<li>
-                        <a class="hz-nvbr-abtn" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
+							</ul>
+						</li>
+	                    <li>
+	                        <a class="hz-nvbr-abtn" href="#">About</a>
+	                    </li>
+	                </ul>
+	                <ul class="nav navbar-nav navbar-right">
+	                	<li>
+	                        <a class="hz-nvbr-abtn" href="#">Contact</a>
+	                    </li>
+	                </ul>
+	            </div>
 
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+	            <!-- /.navbar-collapse -->
+	        </div>
+	        <!-- /.container -->
+	    </nav>
+	    
+	    <br><br>
+	    <div class="container">
+	    	<div class="row">
+	    		<div class="col-md-6" align="center">
+	    			<img class="img-responsive" src="/img/logo/logo2.png">
+	    		</div>
+	    		<br><br><br><br><br>
+	    		<div class="col-md-6" align="center">
+	    			<br>
+	    			<img class="img-responsive" src="/img/logo/hz.png">
+	    			<br><br>
+	    			<p style="font-size: 20px;" >A&nbsp;&nbsp;&nbsp;C R E A T I V E&nbsp;&nbsp;&nbsp;H E <span style="color: rgb(250,80,80);font-size: 20px;">A R T .</span></p>
+	    			<br><br>
+	    		</div>
+	    	</div>
+	    </div>
     
-
-    
+    </div>
 
 
 
