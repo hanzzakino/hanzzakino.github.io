@@ -1,3 +1,0 @@
-font-family: 'Caveat', cursive;
-font-family: 'Pacifico', cursive;
-font-family: 'Roboto', sans-serif;
